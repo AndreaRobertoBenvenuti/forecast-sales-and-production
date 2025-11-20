@@ -1,0 +1,167 @@
+# ========================================
+# DATI PRIVATI AZIENDALI - NON SU GITHUB
+# ========================================
+# Escludi tutti i file che iniziano con XX nella cartella Data
+Data/XX*.xlsx
+Data/XX*.csv
+Data/XX*.xls
+Data/XX*.*
+
+# Altri file potenzialmente sensibili
+Data/*_private*
+Data/*_confidential*
+Data/*_interno*
+
+
+# ========================================
+# FILE TEMPORANEI R E RSTUDIO
+# ========================================
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+
+# ========================================
+# OUTPUT TEMPORANEI E GRAFICI DI TEST
+# ========================================
+# Esclude grafici temporanei (mantieni solo quelli finali)
+*_temp.png
+*_test.png
+*_draft.png
+test_plot*.png
+
+# File CSV temporanei di export
+*_temp.csv
+*_test.csv
+output_temp*.csv
+
+
+# ========================================
+# FILE DI SISTEMA E EDITOR
+# ========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+
+# ========================================
+# LOG E FILE DI DEBUG
+# ========================================
+*.log
+*.log.*
+debug_*.txt
+error_*.txt
+
+
+# ========================================
+# MODELLI SALVATI TEMPORANEI
+# ========================================
+# Escludi modelli salvati temporaneamente durante test
+models/temp_*
+models/*_test.rds
+*_backup.rds
+
+
+# ========================================
+# CREDENZIALI E CONFIGURAZIONI SENSIBILI
+# ========================================
+# File di configurazione con password/token
+config_private.R
+credentials.R
+.env
+*.key
+*.pem
+
+
+# ========================================
+# CARTELLE OPZIONALI DA ESCLUDERE
+# ========================================
+# Se hai cartelle di lavoro temporanee, decommentale:
+# Temp/
+# Scratch/
+# WIP/
+# Old/
+
+
+# ========================================
+# FILE GRANDI O BINARI
+# ========================================
+# Escludi file molto grandi che potrebbero rallentare git
+*.zip
+*.rar
+*.7z
+# *.xlsx  # ATTENZIONE: commentato perché potrebbero servire i file esempio!
+# *.csv   # ATTENZIONE: commentato perché potrebbero servire i file esempio!
+
+
+# ========================================
+# NOTE PERSONALI
+# ========================================
+# Appunti e note personali di sviluppo
+TODO_personal.txt
+notes_*.txt
+appunti_*.md
