@@ -1,0 +1,36 @@
+Manipolazione ed elaborazione dei dati
+read.csv(): carica in memoria i dati da un file CSV
+data.frame(): crea un frame di dati
+subset(): filtra i dati in base a determinate condizioni
+merge(): unisce i dati da diversi frame di dati
+aggregate(): aggrega i dati in base a determinati criteri
+transform(): crea nuove variabili in un frame di dati
+sort(): ordina vettori o frame di dati
+unique(): identifica valori univoci in un vettore o in una colonna
+Visualizzazione dei dati
+plot(): crea grafici a dispersione e altri tipi di grafici di base
+hist() : crea istogrammi
+barplot(): crea grafici a barre
+boxplot(): crea grafici a scatola e baffi (chiamati proprio “boxplot”)
+ggplot2::ggplot(): per visualizzazioni più complesse e adattabili con il pacchetto ggplot2
+Analisi statistiche
+summary(): prepara un riepilogo dei dati, compresi gli indici statistici
+lm(): esegue regressioni lineari
+t.test(): esegue test T per test delle ipotesi
+cor(): calcola i coefficienti di correlazione fra variabili
+anova(): esegue analisi della varianza (ANOVA)
+chi-sq.test(): esegue test del chi quadrato
+Elaborazione dei dati
+ifelse(): valuta le condizioni e le espressioni condizionali
+apply(): applica una funzione su matrici o frame di dati
+dplyr::filter(): filtra i dati in frame di dati con il pacchetto dplyr
+dplyr::mutate(): crea nuove variabili in frame di dati con il pacchetto dplyr
+lapply(), sapply(), mapply(): applica funzioni su liste o vettori
+Importazione ed esportazione dei dati
+readRDS(), saveRDS(): carica e salva oggetti dati in R
+write.csv(), read.table(): esporta e importa dati in diversi formati
+Grafici e diagrammi statistici
+qqnorm(), qqline(): crea grafici quantile-quantile
+plot(), acf(): mostra grafici di autocorrelazione
+density(): mostra funzioni di densità e istogrammi
+heatmap(): crea mappe di calore
